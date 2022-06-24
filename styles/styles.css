@@ -6,7 +6,7 @@ body {
   font-family: "Roboto";
   font-size: 14px;
   background-color: var(--white-text);
-  font-weight: 400;
+  
   color: var(--black-text);
   letter-spacing: 0.03em;
 }
@@ -23,10 +23,6 @@ ul li {
 a {
   text-decoration: none;
 }
-
-a:hover {
-  color: var(--blu-text);
-}
 .header {
   display: flex;
   width: 1600px;
@@ -35,16 +31,17 @@ a:hover {
 .header-porfolio {
   border-bottom: 1px solid #ececec;
 }
-.nav__link-current {
-  color: #2196f3;
-}
+.nav__link-current{
+ 
+  color: var(--white-text);
+ }
 .logo-header {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 3%;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--blu-text);
   margin-left: 270px;
   margin-top: 20px;
@@ -74,25 +71,30 @@ a:hover {
 .contact__item {
   margin-right: 50px;
 }
+.nav__link-current:hover{
+  background-color: var(--blu-text);
+color: var(--white-text); 
+}
+
 .nav__link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+
   color: var(--black-text);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .contact__link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+ 
   color: var(--grey-text);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .hero {
   height: 600px;
@@ -118,7 +120,15 @@ a:hover {
   color: var(--white-text);
   margin-left: 700px;
   margin-top: 30px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
+  Font-family:Roboto;
+Font-style: Bold;
+Font-size: 16px;
+Line-height: 1.18;;
+Vertical-align: Center;
+letter-spacing: 0.06em;
+border: none;
+
 }
 .about {
   padding-top: 70px;
@@ -137,23 +147,23 @@ a:hover {
 
 .about__title {
   font-family: "Roboto";
-
+  text-transform: uppercase;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-align: left;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--black-text);
-  letter-spacing: 3%;
+  
 }
 .about__text {
   padding-top: 10px;
   font-family: "Roboto";
-  font-style: "Regular";
+  
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--grey-text);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .working {
   width: 1170px;
@@ -165,10 +175,10 @@ a:hover {
   font-family: "Roboto";
 
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   color: var(--black-text);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .working__list {
   display: flex;
@@ -187,9 +197,9 @@ a:hover {
   padding-top: 95px;
   padding-bottom: 50px;
   font-family: "Roboto";
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   color: var(--black-text);
 }
@@ -209,21 +219,21 @@ a:hover {
   font-family: "Roboto";
   font-style: Medium;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   text-align: center;
   color: var(--black-text);
   margin-top: 30px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .teams__text {
   font-family: "Roboto";
   font-style: "Regular";
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   text-align: center;
   color: var(--grey-text);
   margin-top: 10px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .footer {
   width: 1600px;
@@ -242,7 +252,7 @@ a:hover {
   color: var(--blu-text);
   margin-left: 270px;
   text-decoration: none;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .logo-spans {
   color: var(--white-text);
@@ -260,7 +270,7 @@ a:hover {
   font-style: "Regular";
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .footer-link-white {
   color: var(--white-text);
@@ -271,7 +281,7 @@ a:hover {
   font-size: 14px;
   line-height: 1.71;
   padding-top: 10px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .footer__link {
   text-decoration: none;
@@ -282,28 +292,30 @@ a:hover {
   justify-content: center;
 }
 
-button {
-  color: #2196f3;
+button{
+  
   background-color: var(--blu-text);
   color: var(--white-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-filter__button {
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   margin-bottom: 35px;
   padding: 6px 22px;
   background-color: #f5f4fa;
   color: var(--black-text);
   border-radius: 5px;
   border: none;
+  Font-family: Roboto;
+Font-size: 16px;
+Line-height:1.16;
+text-align: center;
+Vertical-align: Top;
+Letter-spacing: 0.03em;
 }
-.portfolio-filter__button:hover {
-  background-color: var(--blu-text);
-  color: var(--white-text);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
+
 .portfolio-filter__item:not(:first-child) {
   margin-left: 8px;
 }
@@ -332,7 +344,7 @@ button {
 }
 .portfolio-examples__title {
   font-family: "Roboto";
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 2;
   color: var(--black-text);
@@ -348,7 +360,7 @@ button {
   margin-top: 5px;
   margin-bottom: 20px;
   margin-left: 25px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .section {
   display: none;

@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif; 
   font-size: 14px;
   background-color: var(--white-text);
   
@@ -15,6 +15,8 @@ body {
   --black-text: #212121;
   --white-text: #ffffff;
   --grey-text: #757575;
+  --dark-grey:#2f303a;
+  --white-color:#f5f4fa;
 }
 
 ul li {
@@ -37,7 +39,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  
   color: var(--blu-text);
   margin-left: 270px;
   margin-top: 20px;
@@ -68,14 +70,14 @@ a {
   margin-right: 50px;
 }
 .nav__link {
-  font-family: "Roboto";
+ 
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 
   color: var(--black-text);
-  letter-spacing: 0.03em;
+  
 }
 
 .nav__link:hover,
@@ -92,7 +94,7 @@ color: var(--blu-text);
   line-height: 1.14;
  
   color: var(--grey-text);
-  letter-spacing: 0.03em;
+ 
 }
 .contact__link:hover,
 .contact__link:focus,
@@ -103,7 +105,7 @@ color: var(--blu-text);
 .hero {
   height: 600px;
   width: 1600px;
-  background-color: #2f303a;
+  background-color: var(--dark-grey);
 }
 .hero-title {  
   font-size: 44px;
@@ -137,6 +139,9 @@ cursor: pointer;
   width: 1170px;
   height: 100px;
 }
+.about-hidden{
+  display: none;
+}
 .about__list {
   display: flex;
 }
@@ -147,24 +152,24 @@ cursor: pointer;
 }
 
 .about__title {
-  font-family: "Roboto";
+ 
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
   vertical-align: Top;
-  letter-spacing: 0.03em;
+ 
   color: var(--black-text);
   
 }
 .about__text {
   padding-top: 10px;
-  font-family: "Roboto";
+  
   
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-text);
-  letter-spacing: 0.03em;
+ 
 }
 .working {
   width: 1170px;
@@ -173,13 +178,12 @@ cursor: pointer;
   padding-top: 120px;
 }
 .working__title {
-  font-family: "Roboto";
 
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--black-text);
-  letter-spacing: 0.03em;
+  
 }
 .working__list {
   display: flex;
@@ -192,12 +196,12 @@ cursor: pointer;
   width: 1600px;
   height: 650px;
 
-  background-color: #f5f4fa;
+  background-color:var(-white-color);
 }
 .teams__title {
   padding-top: 95px;
   padding-bottom: 50px;
-  font-family: "Roboto";
+ 
   letter-spacing: 0.03em;
   font-size: 36px;
   line-height: 1.16;
@@ -217,14 +221,14 @@ cursor: pointer;
   margin-right: 30px;
 }
 .teams__name {
-  font-family: "Roboto";
+ font-weight: 500;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--black-text);
   margin-top: 30px;
-  letter-spacing: 0.03em;
+ 
 }
 .teams__text {  
   font-size: 16px;
@@ -232,24 +236,28 @@ cursor: pointer;
   text-align: center;
   color: var(--grey-text);
   margin-top: 10px;
-  letter-spacing: 0.03em;
+ 
 }
 .footer {
   width: 1600px;
   height: 250px;
-  background-color: var(--black-text);
+  background-color: var(--dark-grey);
   padding-top: 60px;
 }
 .footer__item {
   font-style: normal;
 }
 .logo-headers {  
+  Font-family: Raleway;
+  Font-style: Bold;
+  Font-size: 26px;
+  Line-height: 1.19;
   font-weight: 700;
-  font-size: 26px;
+  
   color: var(--blu-text);
   margin-left: 270px;
   text-decoration: none;
-  letter-spacing: 0.03em;
+ 
 }
 .logo-spans {
   color: var(--white-text);
@@ -265,7 +273,7 @@ cursor: pointer;
 .footer__list {   
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+ 
 }
 .footer-link-white {
   color: var(--white-text);
@@ -274,7 +282,7 @@ cursor: pointer;
   font-size: 14px;
   line-height: 1.71;
   margin-top: 10px;
-  letter-spacing: 0.03em;
+  
 }
 .footer__item:first-child {
   margin-top: 0px;
@@ -294,10 +302,10 @@ color: var(--blu-text);
 }
 
 .portfolio-filter__button {
-  letter-spacing: 0.03em;
+  font-weight: 500;
   margin-bottom: 35px;
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color:var(-white-color);
   color: var(--black-text);
   border-radius: 5px;
   border: none;
@@ -305,7 +313,7 @@ Font-size: 16px;
 Line-height:1.16;
 text-align: center;
 Vertical-align: Top;
-Letter-spacing: 0.03em;
+
 }
 .portfolio-filter__button:hover,
 .portfolio-filter__button:focus,
